@@ -1,0 +1,11 @@
+@font-face{
+  font-family: "Thonburi-Bold";
+  src: url('VCR_OSD_MONO_1.001.ttf'),
+  url('VCR_OSD_MONO_1.001.eot');
+}
+
+.ui.link.list {
+  color: #ababab;
+  font-family: "Thonburi-Bold", "Courier New";
+  font-size: 14px;
+}
