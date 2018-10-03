@@ -1,11 +1,98 @@
-@font-face{
-  font-family: "Thonburi-Bold";
-  src: url('VCR_OSD_MONO_1.001.ttf'),
-  url('VCR_OSD_MONO_1.001.eot');
+@font-face {
+  font-family: "VCR";
+  src: url("fonts/Harabara.eot");
+  src:
+      url("fonts/vcr_osd_mono_1.001-webfont.woff") format("woff"),
+      url("fonts/vcr_osd_mono_1.001-webfont.otf") format("opentype"),
+      url("fonts/vcr_osd_mono_1.001-webfont.svg#filename") format("svg");
 }
 
-.ui.link.list {
+.ui.list {
   color: #ababab;
-  font-family: "Thonburi-Bold", "Courier New";
+  font-family: "VCR", "Courier New";
   font-size: 14px;
+  text-transform: uppercase;
+}
+
+.ui.segment {
+  border: none;
+  box-shadow: none;
+}
+
+.ui.center.aligned.segment {
+  padding: 7px;
+  margin-top: 100px;
+  border: none;
+  box-shadow: none;
+}
+
+.sweater {
+  margin-left: 40px;
+}
+
+.redhat {
+  margin-left: 25px;
+}
+
+.blackhat {
+  margin-left: 10px;
+}
+
+.arrivals {
+  padding: 5px;
+  position: sticky;
+}
+
+.women {
+  padding: 5px;
+}
+
+.men {
+  padding: 5px;
+}
+
+.usd {
+  margin-top: 420px;
+  padding: 5px;
+}
+
+.help {
+  padding: 5px;
+}
+
+.terms {
+  padding: 5px;
+}
+
+.privacy {
+  padding: 5px;
+}
+
+.access {
+  padding: 5px;
+}
+
+
+.it {
+  padding: 5px;
+}
+
+.cw {
+  padding: 5px;
+}
+
+.ship {
+  padding: 5px;
+}
+
+.fit {
+  padding: 5px;
+}
+
+.price {
+  padding: 5px;
+}
+
+.purch {
+  padding: 5px;
 }
